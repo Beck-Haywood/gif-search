@@ -21,6 +21,7 @@ input {
 
 form {
     margin-bottom:10px;
+    text-align: center;
 }
 
 button {
@@ -40,3 +41,10 @@ button {
     border: 1px solid #FE7880;
     color: #FE7880;
 }
+.grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
